@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    background-color: #222;
+    z-index: 100000;
+}
+.webName{
+    color: #ff5733;
+}
+body > div.nav > h2{
+    color: #fff;
+    font-size: 1.7rem;
+}
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#item li{
+    list-style: none;
+    padding-right: 50px;
+}
+#item li a{
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+#item li a:hover{
+    color:#ff5733;
+    cursor: pointer;
+}
+#item .icon i{
+    color: #fff;
+    padding-right: 30px;
+    font-weight: bolder;
+}
+ #item li a:hover, #item .icon i:hover{
+     color: #ff5733;
+     cursor: pointer;
+ }
+.background{
+    background-image: url(./images/bg.jpg);
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    z-index:-1;
+}
+.background .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.mid p{
+    color:#7f8c8d;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+.mid h2{
+    color:#fff;
+    font-size: 3rem;
+}
+ .mid .btn{
+     margin-top: 2rem;
+ }
+.mid .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ .mid .btn a.simpleBtn{
+     color: #fff;
+     font-weight: 500;
+     padding: 0.9rem 1.6rem;
+ }
+ .mid .btn a.simpleBtn:hover{
+    color: #ff5733;
+ }
+ .mid .btn a.borderBtn{
+     color: #ff5733;
+     border: 1px solid #ff5733;
+     font-weight: 500;
+     padding: 0.9rem 1.6rem;
+     border-radius: 3px;
+ }
+ .mid .btn a.borderBtn:hover{
+     background: #fff;
+     border: 1px solid #fff;
+ }
