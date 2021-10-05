@@ -11,5 +11,5 @@ HTML, CSS, Font awesome etc
 * Controllable google map.
 * Beautiful Form with Button.
 * 7sections with amazing animations, beautiful cards.
-* And footer also.
+* And awesome footer also.
 
